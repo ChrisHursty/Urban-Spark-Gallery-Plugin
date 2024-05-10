@@ -1,0 +1,37 @@
+#us-gallery-images-container {
+    margin-bottom: 15px;
+}
+
+#us-gallery-images-container ul.us-gallery-images {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#us-gallery-images-container ul.us-gallery-images li {
+    position: relative;
+}
+
+#us-gallery-images-container ul.us-gallery-images img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+}
+
+.us-remove-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
